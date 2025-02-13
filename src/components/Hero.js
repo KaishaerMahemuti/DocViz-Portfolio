@@ -3,7 +3,7 @@ import heroImage from '../assets/hero-image.jpg';
 
 export default function Hero() {
   return (
-    <div className="container text-center mt-5">
+    <div className="container text-center" style={{ marginTop: "100px" }}>
       <h1>Welcome to DocViz Portfolio</h1>
       <p>A Docker Observability Tool.</p>
 
